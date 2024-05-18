@@ -57,7 +57,7 @@
                         onclick='addToCart("{{ $menu->id }}", "{{ $menu->name }}", {{ $menu->price }})'
                         style="width: 17rem; padding: 0;cursor: pointer;">
                         <div class="overflow-hidden">
-                            <img width="300px" height="200px" src='{{ url("public/menu-images/$menu->image") }}'
+                            <img width="300px" height="200px" src='{{ url("/menu-images/$menu->image") }}'
                                 style="object-fit: cover;" alt="thumbnail for {{ $menu->name }}">
                         </div>
                         <h3 class="card-text">{{ $menu->name }}</h3>

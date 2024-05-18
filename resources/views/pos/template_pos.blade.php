@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Point Of Sales</title>
-    <link rel="stylesheet" href="{{ url('public/bootstrap') }}/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ url('public/fontawesome') }}/css/fontawesome.css">
-    <link rel="stylesheet" href="{{ url('public/fontawesome') }}/css/all.css">
-    <script src="{{ url('public/webfont') }}/webfont.min.js"></script>
+    <link rel="stylesheet" href="{{ url('/bootstrap') }}/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url('/fontawesome') }}/css/fontawesome.css">
+    <link rel="stylesheet" href="{{ url('/fontawesome') }}/css/all.css">
+    <script src="{{ url('/webfont') }}/webfont.min.js"></script>
     <script>
         WebFont.load({
             google: {
@@ -57,7 +57,7 @@
     @yield('content')
 
     @yield('script')
-    <script src="{{ url('public/bootstrap') }}/js/bootstrap.min.js"></script>
+    <script src="{{ url('/bootstrap') }}/js/bootstrap.min.js"></script>
 </body>
 
 </html>

@@ -27,7 +27,7 @@
                                 <label for="image" class="form-label">Gambar</label>
                                 <br>
                                 <img id="addImage"
-                                    src='{{ url("/public/menu-images/$menu->image") }}'class="img-preview mb-3 img-fluid">
+                                    src='{{ url("/menu-images/$menu->image") }}'class="img-preview mb-3 img-fluid">
                                 <input class="form-control @error('image') is-invalid @enderror" type="file"
                                     name="image" id="image" onchange="previewImage()" accept=".jpg, .jpeg, .png">
                                 @error('image')
